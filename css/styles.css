@@ -2,20 +2,12 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    background-color: #e0ebe8;
 }
 
 .top-container {
-    background-color: #e0ebe8;
     position: relative;
-    padding-top: 100px;
-}
-
-.middle-container {
-
-}
-
-.bottom-container {
-
+    padding-top: 150px;
 }
 
 h1 {
@@ -29,42 +21,67 @@ h2 {
     font-size: 2.5rem;
 }
 
+h3 {
+    color: #4ab19a;
+}
+
+p {
+    color: #545454;
+}
+
 .description {
     color: #4ab19a;
-    font-size: 1rem;
 }
 
 .top-cloud {
     position: absolute;
-    top: 8%;
-    right: 20%;
+    top: 10%;
+    right: 10%;
 }
 
 .bottom-cloud {
     position: absolute;
-    top: 40%;
-    left: 20%;
+    top: 50%;
+    left: 10%;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
 }
 
 .profile-img {
     width: 200px;
-}
-
-.robot-img {
-    width: 200px;
+    margin-top: 50px;
 }
 
 .computer-img {
-    width: 200px;
+    width: 100px;
     border-radius: 100%;
+    float: left;
+    margin-right: 30px;
+}
+
+.robot-img {
+    width: 100px;
+    border-radius: 100%;
+    float: right;
+    margin-left: 30px;
 }
 
 .footer-link {
     color: #4ab19a;
     font-size: 2rem;
-    padding: 0 10px;
+    padding: 0 15px;
 }
 
 .footer-link:hover {
     color: #265b50;
+}
+
+.footer {
+    color: #54545480;
+    font-size: 0.9rem;
+    margin-top: 50px;
 }
