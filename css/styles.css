@@ -47,8 +47,12 @@ p {
 
 .skill-row {
     width: 50%;
-    margin: 100px auto;
+    margin: 50px auto;
     text-align: left;
+}
+
+.skill-row.right {
+    text-align: right;
 }
 
 .profile-img {
@@ -81,7 +85,13 @@ p {
 }
 
 .footer {
-    color: #54545480;
-    font-size: 0.9rem;
     margin-top: 50px;
+    background-color: #265b50;
+    height: 50px;
+}
+
+.footer-text {
+    color: #e0ebe8;
+    font-size: 0.9rem;
+    padding-top: 15px;
 }
