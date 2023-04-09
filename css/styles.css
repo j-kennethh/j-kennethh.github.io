@@ -10,6 +10,14 @@ body {
     padding-top: 150px;
 }
 
+.middle-container {
+    margin: 100px;
+}
+
+.bottom-container {
+    margin: 100px;
+}
+
 h1 {
     color: #1e836c;
     font-size: 3rem;
@@ -45,6 +53,10 @@ p {
     left: 10%;
 }
 
+.skills {
+    margin-top: 50px;
+}
+
 .skill-row {
     width: 50%;
     margin: 50px auto;
@@ -57,7 +69,6 @@ p {
 
 .profile-img {
     width: 200px;
-    margin-top: 50px;
 }
 
 .computer-img {
@@ -85,7 +96,7 @@ p {
 }
 
 .footer {
-    margin-top: 50px;
+    margin-top: 100px;
     background-color: #265b50;
     height: 50px;
 }
