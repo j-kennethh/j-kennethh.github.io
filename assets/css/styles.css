@@ -773,7 +773,38 @@ img {
 
 
 /*==================== CONTACT ME ====================*/
+.contact__container {
+  row-gap: 3rem;
+}
 
+.contact__row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: var(--mb-2);
+}
+
+.contact__information {
+  text-align: center;
+}
+
+.contact__icon {
+  font-size: 2rem;
+  color: var(--first-color);
+}
+
+.contact__icon:hover {
+  color: var(--first-color-alt);
+}
+
+.contact__title {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+}
+
+.contact__subtitle {
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+}
 
 /*==================== FOOTER ====================*/
 
