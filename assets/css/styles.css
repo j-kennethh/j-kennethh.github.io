@@ -286,7 +286,7 @@ img {
 }
 
 .home__subtitle {
-  font-size: var(--h3-font-size);
+  font-size: var(--normal-font-size);
   color: var(--text-color);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-75);
@@ -472,7 +472,7 @@ img {
 }
 
 .skills__c {
-  width: 90%;
+  width: 80%;
 }
 
 .skills__cv {
@@ -480,7 +480,7 @@ img {
 }
 
 .skills__python {
-  width: 80%;
+  width: 90%;
 }
 
 .skills__html {
@@ -492,7 +492,7 @@ img {
 }
 
 .skills__js {
-  width: 60%;
+  width: 70%;
 }
 
 .skills__react {
@@ -508,7 +508,7 @@ img {
 }
 
 .skills__api {
-  width: 90%;
+  width: 80%;
 }
 
 .skills__mongo {
@@ -709,6 +709,7 @@ img {
 /*==================== PORTFOLIO ====================*/
 .portfolio__container {
   overflow: initial;
+  margin-bottom: 2.5rem;
 }
 
 .portfolio__content {
