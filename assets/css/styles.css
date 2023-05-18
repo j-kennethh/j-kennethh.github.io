@@ -1049,7 +1049,7 @@ img {
 
   .nav {
     height: calc(var(--header-height) + 1.5rem);
-    column-gap: 1rem;
+    column-gap: 3rem;
   }
 
   .nav__icon,
@@ -1072,7 +1072,7 @@ img {
   }
 
   .home__container {
-    row-gap: 5rem;
+    row-gap: 3rem;
   }
 
   .home__content {
@@ -1122,6 +1122,7 @@ img {
   }
 
   .footer__links {
+    margin-top: 4%;
     flex-direction: row;
     column-gap: 2rem;
   }
