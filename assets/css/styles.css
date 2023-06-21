@@ -1076,7 +1076,7 @@ img {
   }
 
   .home__content {
-    padding-top: 5.5rem;
+    padding-top: 4.5rem;
     column-gap: 2rem;
   }
 
@@ -1150,6 +1150,10 @@ img {
 
   .services__container {
     grid-template-columns: repeat(3, 238px);
+  }
+
+  .qualification__subtitle {
+    width: 120%;
   }
 
   .portfolio__content {
